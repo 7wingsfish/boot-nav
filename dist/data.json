@@ -1,0 +1,271 @@
+[
+  {
+    "id": 1,
+    "name": "系统管理",
+    "iconCls": "glyphicon glyphicon-wrench",
+    "pid": 0,
+    "orderPriority": 1,
+    "children": [
+      {
+        "id": 2,
+        "name": "菜单管理",
+        "iconCls": "icon-resource",
+        "pid": 1,
+        "orderPriority": 1,
+        "children": [
+          {
+            "id": 4,
+            "name": "新增",
+            "iconCls": "icon-add",
+            "pid": 2,
+            "orderPriority": 0,
+            "children": [],
+            "url": "resource.add",
+            "enable": "启用",
+            "type": "按钮",
+            "des": "新增菜单"
+          },
+          {
+            "id": 9,
+            "name": "修改",
+            "iconCls": "icon-edit",
+            "pid": 2,
+            "orderPriority": 1,
+            "children": [],
+            "url": "resource.edit",
+            "enable": "启用",
+            "type": "按钮",
+            "des": "修改"
+          },
+          {
+            "id": 10,
+            "name": "删除",
+            "iconCls": "icon-remove",
+            "pid": 2,
+            "orderPriority": 2,
+            "children": [],
+            "url": "resource.remove",
+            "enable": "启用",
+            "type": "按钮",
+            "des": "删除"
+          }
+        ],
+        "url": "/sys/resource",
+        "enable": "启用",
+        "type": "菜单",
+        "des": "玩儿"
+      },
+      {
+        "id": 8,
+        "name": "角色管理",
+        "iconCls": "icon-role",
+        "pid": 1,
+        "orderPriority": 2,
+        "children": [
+          {
+            "id": 21,
+            "name": "新增",
+            "iconCls": "icon-add",
+            "pid": 8,
+            "orderPriority": 0,
+            "children": [],
+            "url": "role.add",
+            "enable": "启用",
+            "type": "按钮",
+            "des": "新增角色"
+          },
+          {
+            "id": 22,
+            "name": "修改",
+            "iconCls": "icon-edit",
+            "pid": 8,
+            "orderPriority": 1,
+            "children": [],
+            "url": "role.edit",
+            "enable": "启用",
+            "type": "按钮",
+            "des": "角色修改"
+          },
+          {
+            "id": 24,
+            "name": "授权",
+            "iconCls": "icon-save",
+            "pid": 8,
+            "orderPriority": 2,
+            "children": [],
+            "url": "role.grant",
+            "enable": "启用",
+            "type": "按钮",
+            "des": "角色授权"
+          },
+          {
+            "id": 23,
+            "name": "删除",
+            "iconCls": "icon-remove",
+            "pid": 8,
+            "orderPriority": 3,
+            "children": [],
+            "url": "role.remove",
+            "enable": "启用",
+            "type": "按钮",
+            "des": "删除角色"
+          }
+        ],
+        "url": "/sys/role",
+        "enable": "启用",
+        "type": "菜单",
+        "des": "角色管理"
+      },
+      {
+        "id": 3,
+        "name": "用户管理",
+        "iconCls": "icon-user",
+        "pid": 1,
+        "orderPriority": 3,
+        "children": [
+          {
+            "id": 17,
+            "name": "新增",
+            "iconCls": "icon-add",
+            "pid": 3,
+            "orderPriority": 0,
+            "children": [],
+            "url": "user.add",
+            "enable": "启用",
+            "type": "按钮",
+            "des": "新增"
+          },
+          {
+            "id": 18,
+            "name": "修改",
+            "iconCls": "icon-edit",
+            "pid": 3,
+            "orderPriority": 1,
+            "children": [],
+            "url": "user.edit",
+            "enable": "启用",
+            "type": "按钮",
+            "des": "修改"
+          },
+          {
+            "id": 20,
+            "name": "删除",
+            "iconCls": "icon-remove",
+            "pid": 3,
+            "orderPriority": 2,
+            "children": [],
+            "url": "user.remove",
+            "enable": "启用",
+            "type": "按钮",
+            "des": "123"
+          }
+        ],
+        "url": "/sys/user",
+        "enable": "启用",
+        "type": "菜单",
+        "des": "123"
+      },
+      {
+        "id": 25,
+        "name": "组织机构管理",
+        "iconCls": "icon-organization",
+        "pid": 1,
+        "orderPriority": 5,
+        "children": [
+          {
+            "id": 26,
+            "name": "新增",
+            "iconCls": "icon-add",
+            "pid": 25,
+            "orderPriority": 0,
+            "children": [],
+            "url": "organization.add",
+            "enable": "启用",
+            "type": "按钮",
+            "des": "新增组织机构"
+          },
+          {
+            "id": 27,
+            "name": "修改",
+            "iconCls": "icon-edit",
+            "pid": 25,
+            "orderPriority": 1,
+            "children": [],
+            "url": "organization.edit",
+            "enable": "启用",
+            "type": "按钮",
+            "des": "修改组织机构"
+          },
+          {
+            "id": 28,
+            "name": "删除",
+            "iconCls": "icon-remove",
+            "pid": 25,
+            "orderPriority": 2,
+            "children": [],
+            "url": "organization.remove",
+            "enable": "启用",
+            "type": "按钮",
+            "des": "删除组织机构"
+          }
+        ],
+        "url": "/sys/organization",
+        "enable": "启用",
+        "type": "菜单",
+        "des": "组织机构管理"
+      }
+    ],
+    "url": "#",
+    "enable": "启用",
+    "type": "菜单",
+    "des": "阿斯蒂芬"
+  },
+  {
+    "id": 5,
+    "name": "XXX管理",
+    "iconCls": "icon-sys",
+    "pid": 0,
+    "orderPriority": 2,
+    "children": [],
+    "url": "#",
+    "enable": "启用",
+    "type": "菜单",
+    "des": "123123"
+  },
+  {
+    "id": 6,
+    "name": "XXXX管理",
+    "iconCls": "icon-sys",
+    "pid": 0,
+    "orderPriority": 3,
+    "children": [],
+    "url": "#",
+    "enable": "启用",
+    "type": "菜单",
+    "des": "0000"
+  },
+  {
+    "id": 7,
+    "name": "修改测试",
+    "iconCls": "icon-sys",
+    "pid": 0,
+    "orderPriority": 4,
+    "children": [],
+    "url": "#",
+    "enable": "启用",
+    "type": "菜单",
+    "des": "2323"
+  },
+  {
+    "id": 19,
+    "name": "管理",
+    "iconCls": "icon-sys",
+    "pid": 0,
+    "orderPriority": 5,
+    "children": [],
+    "url": "#",
+    "enable": "启用",
+    "type": "菜单",
+    "des": "0000"
+  }
+]
